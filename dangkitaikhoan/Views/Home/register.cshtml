@@ -1,0 +1,317 @@
+﻿
+@{
+    ViewData["Title"] = "register";
+    Layout = null;
+}
+
+<link href="~/css/site.css" rel="stylesheet" />
+<head>
+
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Học jQuery</title>
+    <meta charset="utf-8">
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+
+    <script src="~/js/mycustom.js"></script>
+    <script>
+        $(document).ready(function () {
+            
+            $("#inputEmail3").click(function () {
+                $("#test3").val("Đà nẵng");
+            });
+        });
+    </script>
+    <style type="text/css">
+        input[type=text], textarea {
+            border: 1px solid #ccc;
+        }
+
+            input[type=text]:focus, textarea:focus {
+                background-color: red;
+                border: 1px solid #ccc;
+            }
+    </style>
+   
+</head>
+<div class="container">
+
+    <form>
+        <h2> ĐĂNG KÝ TÀI KHOẢN</h2>
+        <hr><div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label text-right margin-top-5">Thành phố*</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" value="Đà Nẵng">
+               @* <p>Thành phố* <input type="text" id="test3" value="Đà Nẵng"></p>*@
+
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label text-right margin-top-5">Tên*</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Tên">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label text-right margin-top-5">Họ*</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" value="Phạm">
+                <asp:TextBox ID="inputEmail3" runat="server"></asp:TextBox>
+                
+                <asp:TextBox ID="inputEmail3" runat="server" TextMode="MultiLine"></asp:TextBox>
+                    
+                    
+                    
+                    
+               
+            </div>
+        </div>
+
+        
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label text-right margin-top-5">Số điện thoại*</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" value="0123-456-789">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label text-right margin-top-5">Giới tính</label>
+            <div class="col-sm-4">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" >
+                        Nam
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" checked>
+                        Nữ
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label text-right margin-top-5">Giới thiệu về bạn</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" value="Tôi tên là Phạm Phương. Tôi sống tại Đà Nẵng">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label text-right margin-top-5">Email*</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label text-right margin-top-5">Mật khẩu*</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Nhập mật khẩu">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label text-right margin-top-5">Nhập lại mật khẩu*</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Nhập lại mật khẩu">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-9">
+                <input type="checkbox" checked>
+                <label for="inputEmail3"> Tôi đã đọc và đồng ý với điều khoản & điều kiện</label>
+                
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-8">
+                @*<button type="submit" class="btn btn-success">Đăng ký</button>*@
+                <button id="btndk" href="#">Đăng ký</button>
+                
+                
+
+            </div>
+        </div>
+        
+
+        @*<div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Tài khoản 1</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Tài khoản 2</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Tài khoản 3</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Tài khoản 4</a>
+        </div>
+        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+            <h4 id="list-item-1">Tài khoản 1</h4>
+            <p>...</p>
+            <h4 id="list-item-2">Tài khoản 2</h4>
+            <p>...</p>
+            <h4 id="list-item-3">Tài khoản 3</h4>
+            <p>...</p>
+            <h4 id="list-item-4">Tài khoản 4</h4>
+            <p>...</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-secondary">Action</button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-secondary">Action</button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><ul class="list-group">
+            <li class="list-group-item active">Thông tin cá nhân</li>
+            <li class="list-group-item">Phạm Văn Phương</li>
+            <li class="list-group-item">Sinh ngày 02 tháng 07 năm 1994 </li>
+            <li class="list-group-item">Quế Sơn, Quảng Nam</li>
+            <li class="list-group-item">Thực tập sinh</li>
+        </ul>
+        @*<br>
+        <div class="modal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+        @*<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">TÌM KIẾM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <br><li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <br><li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-danger">Search</button>
+                </form>
+            </div>
+        </nav>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>*@
+
+    </form>
+
+    @*<form name="register" action="" method="post">
+            <table class="table table-striped">
+                <tr>
+                    <td>
+
+                        <h2>Ðăng ký tài khoản</h2>
+
+                        <table border="1" cellpadding="1" cellspacing="1">
+
+
+                            <tr class="table">
+                                <td class="form-label">Thành phố<br><input type="text" class="" ="thanhpho"></td>
+                            </tr>
+                            <tr class="table">
+                                <td>Tên<br><input type="text" name="ten"></td>
+                            </tr>
+                            <tr class="table">
+                                <td>Họ<br><input type="text" name="ho"></td>
+                            <tr class="table">
+                                <td>Số điện thoại<br><input type="number" name="sodienthoai"></td>
+                            </tr>
+                            <tr class="table">
+                                <td>Giới tính<br><input type="radio" checked name="gioitinh"> nam <br><input type="radio" name="gioitinh"> nữ</td>
+                            </tr>
+                            <tr class="table">
+                                <td>Giới thiệu về bản thân<br><input type="text" name="gioithieuvebanthan"></td>
+                            </tr>
+                            <tr class="table">
+                                <td>Email<br><input type="text" name="email"></td>
+                            </tr>
+                            <tr class="table">
+                                <td>Mật khẩu<br><input type="password" name="matkhau"></td>
+                            </tr>
+                            <tr class="table">
+                                <td>Nhập lại mật khẩu<br><input type="password" name="nhaplaimatkhau"></td>
+                            </tr>
+                            <tr class="table">
+
+                                <td><input type="checkbox" name="toidadocvadongyvoidieukhoan&dieukien"> Tôi đã đọc và đồng ý với điều khoản và điều kiện</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+
+                                    <left><input type="button" class="btn btn-primary" value="Ðăng ký" name="dangky"> </left>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+            </table>
+        </form>*@
+</div>

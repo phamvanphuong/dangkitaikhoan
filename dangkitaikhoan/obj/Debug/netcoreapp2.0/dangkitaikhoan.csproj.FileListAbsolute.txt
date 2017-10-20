@@ -1,0 +1,11 @@
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\obj\Debug\netcoreapp2.0\dangkitaikhoan.csprojResolveAssemblyReference.cache
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\obj\Debug\netcoreapp2.0\dangkitaikhoan.csproj.CoreCompileInputs.cache
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\obj\Debug\netcoreapp2.0\dangkitaikhoan.AssemblyInfoInputs.cache
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\obj\Debug\netcoreapp2.0\dangkitaikhoan.AssemblyInfo.cs
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\bin\Debug\netcoreapp2.0\dangkitaikhoan.deps.json
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\bin\Debug\netcoreapp2.0\dangkitaikhoan.runtimeconfig.json
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\bin\Debug\netcoreapp2.0\dangkitaikhoan.runtimeconfig.dev.json
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\bin\Debug\netcoreapp2.0\dangkitaikhoan.dll
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\bin\Debug\netcoreapp2.0\dangkitaikhoan.pdb
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\obj\Debug\netcoreapp2.0\dangkitaikhoan.dll
+E:\phuongpv\dangkitaikhoan\dangkitaikhoan\obj\Debug\netcoreapp2.0\dangkitaikhoan.pdb
